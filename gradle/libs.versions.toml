@@ -9,6 +9,7 @@ kotlinPlugin = "1.7.0"
 shadowPlugin = "7.1.2"
 svnToolsPlugin = "3.1"
 taskInfoPlugin = "1.4.0"
+versionCatalogUpdatePlugin = "0.5.1"
 versionsPlugin = "0.42.0"
 
 antlr = "4.9.3"
@@ -74,6 +75,7 @@ kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", versio
 shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadowPlugin" }
 svnTools = { id = "at.bxm.svntools", version.ref = "svnToolsPlugin" }
 taskInfo = { id = "org.barfuin.gradle.taskinfo", version.ref = "taskInfoPlugin" }
+versionCatalogUpdate = { id = "com.github.ben-manes.versions", version.ref = "versionCatalogUpdatePlugin" }
 versions = { id = "com.github.ben-manes.versions", version.ref = "versionsPlugin" }
 
 [libraries]

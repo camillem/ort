@@ -42,6 +42,7 @@ plugins {
     alias(libs.plugins.ideaExt)
     alias(libs.plugins.kotlin)
     alias(libs.plugins.taskInfo)
+    alias(libs.plugins.versionCatalogUpdate)
     alias(libs.plugins.versions)
 }
 
